@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cal-body {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid;
+  padding: 0 0 2px 0;
+}
+
+.cal-body h1 {
+  text-align: center;
+  margin: 0;
+  background: purple;
+  color: #ffe0d1;
+}
+
+.result {
+  width: 100%;
+  height: 80px;
+  background: #ddd;
+  text-align: right;
+  padding: 5px 10px;
+  color: #000;
+  overflow-wrap: break-word;
+}
+
+button {
+  background-color: #333;
+  border-radius: 0;
+  color: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 50px);
+  /* grid-gap: 2px; */
+  margin-top: 2px;
+}
+
+.buttons div {
+  background-color: #333;
+}
+
+.total {
+  background-color: #090;
+}
